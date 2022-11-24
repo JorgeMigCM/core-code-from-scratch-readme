@@ -1,6 +1,6 @@
 # core-code-from-scratch-readme
-## Pizza 🍕(solved)
-Ingredientes: masa de pizza, salsa de tomate peperoni y queso.
+## Pizza de Pepperoni🍕(solved)
+Ingredientes: masa de pizza, salsa de tomate, pepperoni y queso.
 1. Verificar los ingrediantes en casa 🔎 si no los tenemos ir a comprarlos 🛒.
 2. Alistar el area de cocina para la pizza 👨‍🍳.
 3. Preparar la masa y darle forma redonda 🍪, por ultimo dejarla pre-cocida.
