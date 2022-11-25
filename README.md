@@ -34,6 +34,11 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 -Recibir la altura de la piramide.
 -Aplicar la formula VolumenP= Longbase*Anchbase*AltPiramide.
 -Imprimir resultado de la varaible VolumenP 🖨.
+5. Si es una esfera:
+-Recibir el radio de la esfera.
+-Aplicar la formula VolumenE=4/3(∏r^3).
+-Imprimir resultado de la varaible VolumenE 🖨.
+6.Fin del algoritmo.
 
 # week 2
 ## Números📈 (solved)
@@ -44,11 +49,6 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 4. Si el numero al divir entre 2 y queda con residuo. ➗
 4.1 Imprimir "El numero es impar". 🖨
 5. fin del algoritmo.
-5. Si es una esfera:
--Recibir el radio de la esfera.
--Aplicar la formula VolumenE=4/3(∏r^3).
--Imprimir resultado de la varaible VolumenE 🖨.
-6.Fin del algoritmo.
 
 ![Diagrama en blanco - Página 1](https://user-images.githubusercontent.com/40581398/203883013-703cd306-9f97-4c45-be66-bd824ca63792.png)
 
