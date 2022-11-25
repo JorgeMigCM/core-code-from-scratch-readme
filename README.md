@@ -58,3 +58,16 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 3. Calcular la siguiente formula para obtener la edad Age = CurrentYear (2022) - YearOfC. 💻
 4. Imprimir el resultado de la varaible "Age". 🖨
 5. fin del algoritmo.
+
+##Find the treasure 👑 (solved)
+
+Al saber que cada mensaje de los cofres son falsos.
+
+Cofre izquierdo 📦: El cofre del medio tiene un tesoro.
+Cofre medio 📦: Todos estos cofres tienen tesoros en ellos.
+Cofre derecho 📦: Solo uno de estos cofres tiene tesoros.
+
+Dada las premisas que resultaron ser falsas en los cofres, en la 1ra resulta que el cofre del medio esta vacio, el 2do nos dice que un tesoro asegurado y el 3ro nos dice que hay otro tesoro en otro cofre.
+
+
+Entonces el cofre A y B tienen tesoros.
