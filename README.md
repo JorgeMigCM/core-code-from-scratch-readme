@@ -59,7 +59,7 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 4. Imprimir el resultado de la varaible "Age". 🖨
 5. fin del algoritmo.
 
-##Find the treasure 👑 (solved)
+## Find the treasure 👑 (solved)
 
 Al saber que cada mensaje de los cofres son falsos.
 
