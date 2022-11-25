@@ -50,3 +50,10 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 -Imprimir resultado de la varaible VolumenE 🖨.
 6.Fin del algoritmo.
 ![Diagrama en blanco - Página 1](https://user-images.githubusercontent.com/40581398/203883013-703cd306-9f97-4c45-be66-bd824ca63792.png)
+
+## How old are you 👴 (solved)
+1. Recibir el año de nacimiento. 📅
+2. almacenamos el año de nacimiento en la varaible "YearOfC" para verificar su valor. 📂
+3. Calcular la siguiente formula para obtener la edad Age = CurrentYear (2022) - YearOfC. 💻
+4. Imprimir el resultado de la varaible "Age". 🖨
+5. fin del algoritmo.
