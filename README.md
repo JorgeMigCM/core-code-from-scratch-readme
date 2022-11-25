@@ -1,4 +1,5 @@
 # core-code-from-scratch-readme
+# Week 1
 ## Pizza de Pepperoni🍕(solved)
 Ingredientes: masa de pizza, salsa de tomate, pepperoni y queso.
 1. Verificar los ingrediantes en casa 🔎 si no los tenemos ir a comprarlos 🛒.
@@ -33,6 +34,16 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 -Recibir la altura de la piramide.
 -Aplicar la formula VolumenP= Longbase*Anchbase*AltPiramide.
 -Imprimir resultado de la varaible VolumenP 🖨.
+
+# week 2
+## Números📈 (solved)
+1. Recibir un numero. 📨
+2. almacenamos el numero en la varaible "Verify_N" para verificar su valor. 📂
+3. Si el numero es divisble entre 2 con residuo 0. ➗
+3.1. Imprimir "El numero es par". 🖨
+4. Si el numero al divir entre 2 y queda con residuo. ➗
+4.1 Imprimir "El numero es impar". 🖨
+5. fin del algoritmo.
 5. Si es una esfera:
 -Recibir el radio de la esfera.
 -Aplicar la formula VolumenE=4/3(∏r^3).
