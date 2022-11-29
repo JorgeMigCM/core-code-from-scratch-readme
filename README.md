@@ -95,3 +95,18 @@ las siguientes premisas dicen que estudiaron sus compañeros pero en cada premis
 entonces la respuesta verdadera es de BOB y puede que la persona que estudio es ALICE y dijo esa mentira para que sus compañeros tengan la oportunidad de estudiar para el examen que se puede posponer para otro día.
 
 
+## Cereal or Milk 🥣 🥛
+
+Elementos, cereal, tazón, leche y frutos secos.
+Algoritmo Cereal
+1. Poner un tazón sobre la mesa.
+3. Colocar una porcion de cereal en el tazon. (cereal al gusto)
+4. Escoger si poner fruto secos. (frutos al gusto)
+5. Escoger si poner azúcar. (Azúcar al gusto)
+6. Servir leche en el tazon.
+7. Disfrutar el cereal
+FinAlgoritmo
+
+Diagrama de Flujo
+
+![Diagrama en blanco - Página 1 (1)](https://user-images.githubusercontent.com/40581398/204414671-61607ee1-d731-4f93-9730-3dceed561265.png)
