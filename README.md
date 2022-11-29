@@ -62,9 +62,9 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 
 Al saber que cada mensaje de los cofres son falsos.
 
-Cofre izquierdo 📦: El cofre del medio tiene un tesoro.
-Cofre medio 📦: Todos estos cofres tienen tesoros en ellos.
-Cofre derecho 📦: Solo uno de estos cofres tiene tesoros.
+- Cofre izquierdo 📦: El cofre del medio tiene un tesoro.
+- Cofre medio 📦: Todos estos cofres tienen tesoros en ellos.
+- Cofre derecho 📦: Solo uno de estos cofres tiene tesoros.
 
 Dada las premisas que resultaron ser falsas en los cofres, en la 1ra resulta que el cofre del medio esta vacio, el 2do nos dice que un tesoro asegurado y el 3ro nos dice que hay otro tesoro en otro cofre.
 
@@ -76,11 +76,11 @@ Entonces el cofre A y B tienen tesoros.
 ## Logic problem 💬 (solved)
 The teacher asks his 5 students if they studied mathematics yesterday.
 
-Alice: "Nobody studied math yesterday".
-Bob: "1 person studied math yesterday".
-Charlie: "2 people studied math yesterday".
-Dan: "3 people studied mathematics yesterday".
-Eva: "4 people studied mathematics yesterday".
+- Alice: "Nobody studied math yesterday".
+- Bob: "1 person studied math yesterday".
+- Charlie: "2 people studied math yesterday".
+- Dan: "3 people studied mathematics yesterday".
+- Eva: "4 people studied mathematics yesterday".
 
 Al leer las premisas dichas por los estudiantes asi el profesor, al menos una debe ser cierta en el contexto de que el profesor confie en un estudiante en base a eso describiremos cada premisa.
 
