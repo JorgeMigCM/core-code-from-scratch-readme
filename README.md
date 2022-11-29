@@ -111,4 +111,5 @@ FinAlgoritmo
 
 Diagrama de Flujo
 
-![Diagrama en blanco - Página 1 (1)](https://user-images.githubusercontent.com/40581398/204414671-61607ee1-d731-4f93-9730-3dceed561265.png)
+![Diagrama en blanco - Página 1 (2)](https://user-images.githubusercontent.com/40581398/204415403-71b5f4a4-a583-4d95-8411-4312196b0a76.png)
+
