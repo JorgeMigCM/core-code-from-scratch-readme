@@ -1,5 +1,5 @@
 # core-code-from-scratch-readme
-# Week 1
+# Week 1 Algorithms
 ## Pizza de Pepperoni🍕(solved)
 Ingredientes: masa de pizza, salsa de tomate, pepperoni y queso.
 1. Verificar los ingrediantes en casa 🔎 si no los tenemos ir a comprarlos 🛒.
@@ -40,7 +40,6 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 -Imprimir resultado de la varaible VolumenE 🖨.
 6.Fin del algoritmo.
 
-# week 2
 ## Números📈 (solved)
 1. Recibir un numero. 📨
 2. almacenamos el numero en la varaible "Verify_N" para verificar su valor. 📂
@@ -71,3 +70,28 @@ Dada las premisas que resultaron ser falsas en los cofres, en la 1ra resulta que
 
 
 Entonces el cofre A y B tienen tesoros.
+
+# week 2 Pseudocode
+## (Monday)
+## Logic problem 💬 (solved)
+The teacher asks his 5 students if they studied mathematics yesterday.
+
+Alice: "Nobody studied math yesterday".
+Bob: "1 person studied math yesterday".
+Charlie: "2 people studied math yesterday".
+Dan: "3 people studied mathematics yesterday".
+Eva: "4 people studied mathematics yesterday".
+
+Al leer las premisas dichas por los estudiantes asi el profesor, al menos una debe ser cierta en el contexto de que el profesor confie en un estudiante en base a eso describiremos cada premisa.
+
+1ra: "Alice: "Nobody studied math yesterday"" pudo ser verdadera pero se vuelve incierta por las premisas de sus compañeros que afirman que sus compañeros al menos uno estudio.
+
+2da: "Bob: "1 person studied math yesterday".
+Charlie: "2 people studied math yesterday".
+Dan: "3 people studied mathematics yesterday".
+Eva: "4 people studied mathematics yesterday"."
+las siguientes premisas dicen que estudiaron sus compañeros pero en cada premisa aumenta una persoma mas que estudio, por lo cual a mi parecer la mentira se fue agrandando desde que Bob dijo una premisa verdadera para los profesores ya que siempre una persona por lo menos estudia para un examen.
+
+entonces la respuesta verdadera es de BOB y puede que la persona que estudio es ALICE y dijo esa mentira para que sus compañeros tengan la oportunidad de estudiar para el examen que se puede posponer para otro día.
+
+
