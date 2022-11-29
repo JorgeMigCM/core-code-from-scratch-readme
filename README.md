@@ -98,13 +98,15 @@ entonces la respuesta verdadera es de BOB y puede que la persona que estudio es 
 ## Cereal or Milk 🥣 🥛
 
 Elementos, cereal, tazón, leche y frutos secos.
+
 Algoritmo Cereal
 1. Poner un tazón sobre la mesa.
 3. Colocar una porcion de cereal en el tazon. (cereal al gusto)
 4. Escoger si poner fruto secos. (frutos al gusto)
 5. Escoger si poner azúcar. (Azúcar al gusto)
 6. Servir leche en el tazon.
-7. Disfrutar el cereal
+7. Disfrutar el cereal.
+
 FinAlgoritmo
 
 Diagrama de Flujo
