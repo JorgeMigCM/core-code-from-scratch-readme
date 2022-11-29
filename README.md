@@ -25,20 +25,20 @@ Valumenes a calcular: Cubo 🟥, Piramide 🔺 y Esfera 🔴.
 1. Recibir el nombre del volumen que se requiere calcular ✔.
 2. Verificar volumen a calcular 🙆‍♂️.
 3. Si es cuadrado entoces:
--Recibir la longitud de altura, ancho y largo.
--Al ser la altura, el ancho y largo del mismo tamaño aplicar la formula VolumenCubo = longitud^3.
--Imprimir resultado de la varaible VolumenCubo🖨.
+*Recibir la longitud de altura, ancho y largo.
+*Al ser la altura, el ancho y largo del mismo tamaño aplicar la formula VolumenCubo = longitud^3.
+*Imprimir resultado de la varaible VolumenCubo🖨.
 4. Si es piramide entonces:
--Recibir el valor de la longitud de la base de la piramide.
--Recibir el valor del Ancho de la base de la piramide.
--Recibir la altura de la piramide.
--Aplicar la formula VolumenP= Longbase*Anchbase*AltPiramide.
+*Recibir el valor de la longitud de la base de la piramide.
+*Recibir el valor del Ancho de la base de la piramide.
+*Recibir la altura de la piramide.
+*Aplicar la formula VolumenP= Longbase*Anchbase*AltPiramide.
 -Imprimir resultado de la varaible VolumenP 🖨.
 5. Si es una esfera:
--Recibir el radio de la esfera.
--Aplicar la formula VolumenE=4/3(∏r^3).
--Imprimir resultado de la varaible VolumenE 🖨.
-6.Fin del algoritmo.
+*Recibir el radio de la esfera.
+*Aplicar la formula VolumenE=4/3(∏r^3).
+*Imprimir resultado de la varaible VolumenE 🖨.
+6. Fin del algoritmo.
 
 ## Números📈 (solved)
 1. Recibir un numero. 📨
@@ -109,7 +109,7 @@ Algoritmo Cereal
 
 FinAlgoritmo
 
-Diagrama de Flujo
+**Diagrama de Flujo:
 
 ![Diagrama en blanco - Página 1 (2)](https://user-images.githubusercontent.com/40581398/204415403-71b5f4a4-a583-4d95-8411-4312196b0a76.png)
 
