@@ -129,7 +129,7 @@ FinAlgoritmo
 13. ~((T | F ) & (F | F)) & F = F ✅
 14. ~((T | F ) & (F | F)) & T = T ✅
 
-## Boolean results (solved)
+## Boolean results 👀 (solved)
 
 ```python
 Algoritmo boolean
@@ -154,7 +154,7 @@ FinAlgoritmo
 Algoritmo DetectarNumParImp
 	Imprimir 'Ingrese número'
 	Leer NumAverificar
-	Si NumAverificar % 2 == 0 Entonces
+	Si NumAverificar % 2 == 0 Entonces // Verificador para saber el residuo de la división y compararlo con 0 ya que los numeros pares devuel ese valor. 😁
 		Imprimir 'Número: ' + ConvertirATexto(NumAverificar) + ' es par. 😀'
 	SiNo
 		Imprimir 'Número: ' + ConvertirATexto(NumAverificar) + ' es impar. 😉'
