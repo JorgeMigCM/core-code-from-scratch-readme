@@ -129,22 +129,35 @@ FinAlgoritmo
 13. ~((T | F ) & (F | F)) & F = F ✅
 14. ~((T | F ) & (F | F)) & T = T ✅
 
-# Boolean results (solved)
+## Boolean results (solved)
 
 ```python
 Algoritmo boolean
 	a <- 5 == 3
-  // En la variable a se compara si 5 y 3 son iguales pero no lo son. y como resultado booleano es Falso.
+	// En la variable a se compara si 5 y 3 son iguales pero no lo son. y como resultado booleano es Falso.
 	b <- 4 <> 3
-  // En la variable b mmmm se esta comparando <> por lo tanto da error 😅.
+  	// En la variable b mmmm se esta comparando <> por lo tanto da error 😅.
 	c <- 7 > 7
-  // En la variable c se esta comparando si 7 es mayor 7 y al no utilizar >=, como resultado booleano es Falso. 
+  	// En la variable c se esta comparando si 7 es mayor 7 y al no utilizar >=, como resultado booleano es Falso. 
 	d <- 4 < 4
-  // En la variable d se esta comparando si 4 es menor que 4 y al no utilizar <=, como resultado booleano es Falso.
+  	// En la variable d se esta comparando si 4 es menor que 4 y al no utilizar <=, como resultado booleano es Falso.
 	e <- 100 <= 90
-  // En la variable e se esta comparando si 100 es menor o igual que 90 cosa que no puede ser ya 100 es mayor, como resultado booleano es Falso.
+  	// En la variable e se esta comparando si 100 es menor o igual que 90 cosa que no puede ser ya 100 es mayor, como resultado booleano es Falso.
 	f <- 40 >= 40
-  // En la variable c se esta comparando si 40 es mayor o igual que 40 lo cual es cierto, como resultado booleano es Verdadero.
+  	// En la variable c se esta comparando si 40 es mayor o igual que 40 lo cual es cierto, como resultado booleano es Verdadero.
 FinAlgoritmo
 ```
 
+## Identify odd and even numbers 🔍 (solved)
+
+```python
+Algoritmo DetectarNumParImp
+	Imprimir 'Ingrese número'
+	Leer NumAverificar
+	Si NumAverificar % 2 == 0 Entonces
+		Imprimir 'Número: ' + ConvertirATexto(NumAverificar) + ' es par. 😀'
+	SiNo
+		Imprimir 'Número: ' + ConvertirATexto(NumAverificar) + ' es impar. 😉'
+	FinSi
+FinAlgoritmo
+```
