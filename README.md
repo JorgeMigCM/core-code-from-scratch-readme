@@ -95,7 +95,7 @@ las siguientes premisas dicen que estudiaron sus compañeros pero en cada premis
 entonces la respuesta verdadera es de BOB y puede que la persona que estudio es ALICE y dijo esa mentira para que sus compañeros tengan la oportunidad de estudiar para el examen que se puede posponer para otro día.
 
 
-## Cereal or Milk 🥣 🥛
+## Cereal or Milk 🥣 🥛 (solved)
 
 Elementos, cereal, tazón, leche y frutos secos.
 
@@ -112,4 +112,39 @@ FinAlgoritmo
 **Diagrama de Flujo:
 
 ![Diagrama en blanco - Página 1 (2)](https://user-images.githubusercontent.com/40581398/204415403-71b5f4a4-a583-4d95-8411-4312196b0a76.png)
+
+##Truth tables 🔖 (Solved)
+1. T & T = T ✅
+2. T & F = F ✅
+3. F & T = T ❌
+4. F & F = F ✅
+5. T | T = T ✅
+6. T | F = F ❌
+7. F | T = T ✅
+8. F | F = F ✅
+9. ~T = T ❌
+10. ~F = T ✅
+11. (T & F) | (~F) = T ✅
+12. (T | F ) & (F | F) = T ❌
+13. ~((T | F ) & (F | F)) & F = F ✅
+14. ~((T | F ) & (F | F)) & T = T ✅
+
+# Boolean results (solved)
+
+```python
+Algoritmo boolean
+	a <- 5 == 3
+  // En la variable a se compara si 5 y 3 son iguales pero no lo son. y como resultado booleano es Falso.
+	b <- 4 <> 3
+  // En la variable b mmmm se esta comparando <> por lo tanto da error 😅.
+	c <- 7 > 7
+  // En la variable c se esta comparando si 7 es mayor 7 y al no utilizar >=, como resultado booleano es Falso. 
+	d <- 4 < 4
+  // En la variable d se esta comparando si 4 es menor que 4 y al no utilizar <=, como resultado booleano es Falso.
+	e <- 100 <= 90
+  // En la variable e se esta comparando si 100 es menor o igual que 90 cosa que no puede ser ya 100 es mayor, como resultado booleano es Falso.
+	f <- 40 >= 40
+  // En la variable c se esta comparando si 40 es mayor o igual que 40 lo cual es cierto, como resultado booleano es Verdadero.
+FinAlgoritmo
+```
 
