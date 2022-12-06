@@ -196,3 +196,20 @@ Algoritmo Calculadora
 	FinSi
 FinAlgoritmo
 ```
+## Special Number 🌠 (Solved)
+```python
+Algoritmo NumeroEspecial
+	
+	Imprimir "Ingrese Numero"
+	Leer Num
+	Si Num == 100 Entonces
+		Imprimir "Este es un numero especial"
+	SiNo
+		Si (Num<1000) & (Num %10 == 0) & (Num <> 100) Entonces
+			Imprimir "Este numero es algo especial"
+		SiNo
+			Imprimir "Este numero es regular"
+		FinSi
+	FinSi
+FinAlgoritmo
+```
