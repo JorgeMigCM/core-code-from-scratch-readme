@@ -161,3 +161,38 @@ Algoritmo DetectarNumParImp
 	FinSi
 FinAlgoritmo
 ```
+
+# week 3 Pseudocode
+## (Monday)
+Simple calculator 🖥 (Solved)
+```python
+Algoritmo Calculadora
+	Imprimir "----	CALCULADORA ----"
+	Imprimir "Ingrese Numero"
+	Leer Num1
+	Imprimir "Ingrese Numero"
+	Leer Num2
+	Repetir
+		Imprimir "Ingrese Operación + | - | * | /"
+		Leer oper
+	Hasta Que oper == "+" | oper == "+" | oper == "-" | oper == "*" | oper == "/"
+	
+	Imprimir "Operación -> " + ConvertirATexto(Num1) + oper + ConvertirATexto(Num2)
+	
+	Si oper == "+" Entonces
+		Imprimir "Resultado " + ConvertirATexto(Num1+Num2)
+	SiNo
+		Si oper == "-" Entonces
+			Imprimir "Resultado " + ConvertirATexto(Num1-Num2)
+		SiNo
+			Si oper == "*" Entonces
+				Imprimir "Resultado " + ConvertirATexto(Num1*Num2)
+			SiNo
+				Si oper == "/" Entonces
+					Imprimir "Resultado " + ConvertirATexto(Num1/Num2)
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
+```
