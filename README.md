@@ -113,7 +113,50 @@ FinAlgoritmo
 
 ![Diagrama en blanco - Página 1 (2)](https://user-images.githubusercontent.com/40581398/204415403-71b5f4a4-a583-4d95-8411-4312196b0a76.png)
 
-##Truth tables 🔖 (Solved)
+
+
+## Print my name & age 👨‍🦱 (Solved)
+
+```python
+Algoritmo MiNombreEdad
+	Imprimir "Jorge Miguel Cervantes"
+	Imprimir 24
+FinAlgoritmo
+```
+## Mod 🦾 (Solved)
+
+```python
+Algoritmo Mod
+	Imprimir "Ingrese un numero"
+	Leer Num
+	Result  = Num % 2
+	Imprimir "EL resultado es: " + ConvertirATexto(Result)
+FinAlgoritmo
+```
+
+Register form 🗃 (Solved)
+
+```python
+Algoritmo FormularioUsuario
+	Imprimir "------ Formulario Usuario ------"
+	Imprimir "First name"
+	Leer firstName
+	Imprimir "Last name"
+	Leer lastName
+	Imprimir "Age"
+	Leer age
+	Imprimir "Email"
+	Leer email
+	Imprimir "Address"
+	Leer address
+	Imprimir "------ Datos del Usuario ------"
+	Imprimir "Full name: "+ firstName + " " + lastName
+	Imprimir "Age: "+ age
+	Imprimir "Email: " + email
+	Imprimir "Address: "+ address
+FinAlgoritmo
+```
+## Truth tables 🔖 (Solved)
 1. T & T = T ✅
 2. T & F = F ✅
 3. F & T = T ❌
