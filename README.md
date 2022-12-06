@@ -168,9 +168,9 @@ FinAlgoritmo
 ```python
 Algoritmo Calculadora
 	Imprimir "----	CALCULADORA ----"
-	Imprimir "Ingrese Numero"
+	Imprimir "Ingrese Número"
 	Leer Num1
-	Imprimir "Ingrese Numero"
+	Imprimir "Ingrese Número"
 	Leer Num2
 	Repetir
 		Imprimir "Ingrese Operación + | - | * | /"
@@ -200,15 +200,15 @@ FinAlgoritmo
 ```python
 Algoritmo NumeroEspecial
 	
-	Imprimir "Ingrese Numero"
+	Imprimir "Ingrese Número"
 	Leer Num
 	Si Num == 100 Entonces
-		Imprimir "Este es un numero especial"
+		Imprimir "Este es un número especial"
 	SiNo
 		Si (Num<1000) & (Num %10 == 0) & (Num <> 100) Entonces
-			Imprimir "Este numero es algo especial"
+			Imprimir "Este número es algo especial"
 		SiNo
-			Imprimir "Este numero es regular"
+			Imprimir "Este número es regular"
 		FinSi
 	FinSi
 FinAlgoritmo
