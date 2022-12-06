@@ -164,7 +164,7 @@ FinAlgoritmo
 
 # week 3 Pseudocode
 ## (Monday)
-Simple calculator 🖥 (Solved)
+## Simple calculator 🖥 (Solved)
 ```python
 Algoritmo Calculadora
 	Imprimir "----	CALCULADORA ----"
