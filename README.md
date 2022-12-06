@@ -134,7 +134,7 @@ Algoritmo Mod
 FinAlgoritmo
 ```
 
-Register form 🗃 (Solved)
+## Register form 🗃 (Solved)
 
 ```python
 Algoritmo FormularioUsuario
