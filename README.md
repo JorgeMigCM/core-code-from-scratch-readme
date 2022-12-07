@@ -340,3 +340,16 @@ Algoritmo MultiOption
 	Fin Segun
 FinAlgoritmo
 ```
+## Multiplication Tables 📄 (Solved)
+```python
+Algoritmo TabladeMultiplicar
+	Imprimir 'Ingrese la tabla a calcular:'
+	Leer tabla
+	Imprimir 'Tabla del ' + ConvertirATexto(tabla)
+	i = 1 
+	Mientras i <= 10 Hacer
+		Imprimir ConvertirATexto(tabla) '*' + ConvertirATexto(i) + '=' ConvertirATexto(tabla * i) 
+		i = i + 1
+	Fin Mientras
+FinAlgoritmo
+```
