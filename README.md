@@ -291,3 +291,52 @@ Algoritmo CalculadoraConSwitch
 	
 FinAlgoritmo
 ```
+
+## Multi Option 📚 (Solved)
+```python
+Algoritmo MultiOption
+	Imprimir '1. Sumar de dos numeros'
+	Imprimir '2. Imprimir dia de la semana'
+	Imprimir '3. Calcular longitud de texto'
+	Repetir
+		Imprimir "Ingrese Opción"
+		Leer option
+	Hasta Que option == 1 | option == 2 | option == 3
+	Segun option Hacer
+		1:
+			Imprimir "Opcion 1-Sumar de dos números"
+			Imprimir "Ingrese primer número"
+			Leer Num1
+			Imprimir "Ingrese segundo número"
+			Leer Num1
+			Imprimir "Resultado: " + ConvertirATexto(Num1 + Num2)
+		2:
+			Imprimir "Opcion 2-Imprimir dia de la semana"
+			Repetir
+				Imprimir "Ingrese el dia de la semana en número 1-7"
+				Leer dia
+			Hasta Que dia == 1 | dia == 2 | dia == 3 | dia == 4 | dia == 5 | dia == 6 | dia == 7 
+			Segun dia Hacer
+				1:
+					Imprimir "Lunes"
+				2:
+					Imprimir "Martes"
+				3:
+					Imprimir "Miercoles"
+				4:
+					Imprimir "Jueves"
+				5:
+					Imprimir "Viernes"
+				6:
+					Imprimir "Sabado"
+				7:
+					Imprimir "Domingo"
+			Fin Segun
+		3:
+			Imprimir "Opcion 3-Calcular longitud de texto"
+			Imprimir "Ingrese un texto"
+			Leer texto
+			Imprimir "Resultado: " + ConvertirATexto(Longitud(texto))
+	Fin Segun
+FinAlgoritmo
+```
