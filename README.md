@@ -207,7 +207,9 @@ FinAlgoritmo
 
 # week 3 Pseudocode
 ## (Monday)
+
 ## Simple calculator 🖥 (Solved)
+
 ```python
 Algoritmo Calculadora
 	Imprimir "----	CALCULADORA ----"
@@ -239,7 +241,9 @@ Algoritmo Calculadora
 	FinSi
 FinAlgoritmo
 ```
+
 ## Special Number 🌠 (Solved)
+
 ```python
 Algoritmo NumeroEspecial
 	
@@ -254,5 +258,36 @@ Algoritmo NumeroEspecial
 			Imprimir "Este número es regular"
 		FinSi
 	FinSi
+FinAlgoritmo
+```
+## Simple calculator with Switch 🖥 (Solved)
+```python
+Algoritmo CalculadoraConSwitch
+	Imprimir "----	CALCULADORA ----"
+	Imprimir "Ingrese Número"
+	Leer Num1
+	Imprimir "Ingrese Número"
+	Leer Num2
+	Repetir
+		Imprimir "Ingrese Operación + | - | * | /"
+		Leer oper
+	Hasta Que oper == "+" | oper == "+" | oper == "-" | oper == "*" | oper == "/"
+	
+	Imprimir "Operación -> " + ConvertirATexto(Num1) + oper + ConvertirATexto(Num2)
+	Segun oper Hacer
+		'+':
+			Imprimir 'Resultado: ' + ConvertirATexto(Num1 + Num2)
+		'-':
+			Imprimir 'Resultado: ' + ConvertirATexto(Num1 - Num2)
+		'*':
+			Imprimir 'Resultado: ' + ConvertirATexto(Num1 * Num2)
+		'/':
+			Repetir
+				Imprimir "Ingrese un número distinto a cero"
+				Leer Num2
+			Hasta Que Num2 <> 0
+			Imprimir 'Resultado: ' + ConvertirATexto(Num1 / Num2)
+	Fin Segun
+	
 FinAlgoritmo
 ```
