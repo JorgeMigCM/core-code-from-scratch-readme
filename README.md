@@ -282,11 +282,13 @@ Algoritmo CalculadoraConSwitch
 		'*':
 			Imprimir 'Resultado: ' + ConvertirATexto(Num1 * Num2)
 		'/':
-			Repetir
-				Imprimir "Ingrese un número distinto a cero"
-				Leer Num2
-			Hasta Que Num2 <> 0
-			Imprimir 'Resultado: ' + ConvertirATexto(Num1 / Num2)
+			si Num2 == 0 Entonces
+				Repetir
+					Imprimir "Ingrese el segundo número distinto a cero"
+					Leer Num2
+				Hasta Que Num2 <> 0
+			FinSi
+			Imprimir "Resultado: " + ConvertirATexto(Num1/Num2)
 	Fin Segun
 	
 FinAlgoritmo
@@ -353,3 +355,45 @@ Algoritmo TabladeMultiplicar
 	Fin Mientras
 FinAlgoritmo
 ```
+
+## Simple calculator Do While 📄 (Solved)
+```python
+Algoritmo simplecalculatorDoWhile
+	Imprimir "==== Simple Calculator ===="
+	Repetir 
+		Imprimir "Ingrese primer numero"
+		Leer Num1
+		Imprimir "Ingrese segundo numero"
+		Leer Num2
+		Repetir
+			Imprimir "Ingrese Operación + | - | * | /"
+			Leer oper
+		Hasta Que oper == "+" | oper == "+" | oper == "-" | oper == "*" | oper == "/"
+		Si oper == "+" | oper == "+" | oper == "-" | oper == "*" | oper == "/" Entonces
+			Imprimir 'Procesando: '+ConvertirATexto(Num1)+oper+ConvertirATexto(Num2)
+			Segun oper Hacer
+				"+":
+					Imprimir "Resultado: " + ConvertirATexto(Num1+Num2)
+				"-":
+					Imprimir "Resultado: " + ConvertirATexto(Num1-Num2)
+				"*":
+					Imprimir "Resultado: " + ConvertirATexto(Num1*Num2)
+				"/":
+					si Num2 == 0 Entonces
+						Repetir
+							Imprimir "Ingrese el segundo número distinto a cero"
+							Leer Num2
+						Hasta Que Num2 <> 0
+					FinSi
+					Imprimir "Resultado: " + ConvertirATexto(Num1/Num2)
+			Fin Segun
+		SiNo
+			Imprimir "?? La operación no es valida"
+		FinSi
+		
+		Imprimir "Deseas continuar con otra operación? Si/No"
+		Leer continuar
+	Hasta Que continuar == "No" | continuar == "no"
+FinAlgoritmo
+```
+
