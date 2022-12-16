@@ -260,6 +260,7 @@ Algoritmo NumeroEspecial
 	FinSi
 FinAlgoritmo
 ```
+## (Tuesday)
 ## Simple calculator with Switch 🖥 (Solved)
 ```python
 Algoritmo CalculadoraConSwitch
@@ -342,6 +343,7 @@ Algoritmo MultiOption
 	Fin Segun
 FinAlgoritmo
 ```
+## (Wednesday)
 ## Multiplication Tables 📄 (Solved)
 ```python
 Algoritmo TabladeMultiplicar
