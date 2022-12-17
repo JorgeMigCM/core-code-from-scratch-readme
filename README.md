@@ -399,3 +399,16 @@ Algoritmo simplecalculatorDoWhile
 FinAlgoritmo
 ```
 
+## (Thursday)
+## Multiplication Tables with For 📝 (Solved)
+```python
+Algoritmo TabladeMultiplicarConFor
+	Imprimir 'Ingrese la tabla a calcular:'
+	Leer tabla
+	Imprimir 'Tabla del ' + ConvertirATexto(tabla)
+	Para i = 1 Hasta 10 Con Paso 1 Hacer
+		Imprimir ConvertirATexto(tabla) '*' + ConvertirATexto(i) + '=' ConvertirATexto(tabla * i) 
+	FinPara
+FinAlgoritmo
+```
+
