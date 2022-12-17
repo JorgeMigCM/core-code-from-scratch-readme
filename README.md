@@ -411,4 +411,27 @@ Algoritmo TabladeMultiplicarConFor
 	FinPara
 FinAlgoritmo
 ```
-
+## Ascending and Descending Numbers ⏫⏬ (Solved)
+```python
+Algoritmo NumeroAscendeteDesendente
+	Imprimir 'Ingrese un numero'
+	Leer numero
+	Repetir
+		Imprimir 'Operaciones disponibles:'
+		Imprimir '1. Imprimir en orden Ascendente'
+		Imprimir '2. Imprimir en orden Descendente'
+		Imprimir 'Ingrese operacion a ejecutar'
+		Leer option
+	Hasta Que option == 1 | option == 2
+	Segun option Hacer
+		1:
+			Para i = 0 Hasta numero Con Paso 1 Hacer
+				Imprimir ConvertirATexto(i)
+			Fin Para
+		2:
+			Para i = numero Hasta 0 Con Paso -1 Hacer
+				Imprimir ConvertirATexto(i)
+			Fin Para
+	Fin Segun
+FinAlgoritmo
+```
