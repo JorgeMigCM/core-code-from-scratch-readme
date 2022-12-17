@@ -435,3 +435,28 @@ Algoritmo NumeroAscendeteDesendente
 	Fin Segun
 FinAlgoritmo
 ```
+## Greetings 🕰 (Solved)
+```python
+Algoritmo Saludos
+	Imprimir "----Saludos----"
+	SaludosRep = 0
+	continuar = "Si"
+	Mientras continuar == "Si" | continuar == "si" | continuar == "s" Hacer
+		Imprimir "Ingrese la hora actual (0-23):"
+		Leer hora
+		Si hora <= 12 Entonces
+			Imprimir "Buenos días"
+		SiNo 
+			Si hora <= 18 Entonces
+				Imprimir "Buenas tardes"
+			SiNo
+				Imprimir "Buenas noches"
+			Fin Si
+		Fin Si
+		SaludosRep = SaludosRep + 1
+		Imprimir "Desea continuar? Si/No"
+		Leer continuar
+	FinMientras
+	Imprimir "Cantidad de saludos realizados: "+ ConvertirATexto(SaludosRep)
+FinAlgoritmo
+```
