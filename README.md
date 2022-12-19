@@ -462,3 +462,60 @@ FinAlgoritmo
 ```
 # week 4 Pseudocode
 ## (Monday)
+## Average sales and commission ✍ (Solved)
+```python
+Algoritmo AverageSalesandComission
+	TotalVentas = 0
+	Escribir "Ingrese el numero de ventas"
+	Leer ventas
+	
+	Para i = 1 Hasta ventas Con Paso 1 Hacer
+		Escribir "Escribir el valor de la venta"
+		Leer ContVentas
+		TotalVentas = TotalVentas + ContVentas
+	FinPara
+	
+	PromedioVentas = TotalVentas/ventas
+	Imprimir "Promedio de ventas: "+ ConvertirATexto(PromedioVentas)
+	
+	si ventas < 5 Entonces
+		ventascomision = TotalVentas*0.1
+		Imprimir "Comisión por ventas: "+ ConvertirATexto(ventascomision)
+	SiNo
+		ventascomision = TotalVentas*0.15
+		Imprimir "Comisión por ventas: "+ ConvertirATexto(ventascomision)
+	FinSi
+	
+FinAlgoritmo
+```
+## Even or odd 🔧 (Solved)
+```python
+Algoritmo EvenOrOdd
+	Repetir
+		Imprimir "Ingrese un Numero del 1-50"
+		Leer numero
+		Si numero > 50 | numero < 1
+			Imprimir "Numero invalido ingrese un numero del 1-50"
+		FinSi
+	Mientras Que numero > 50 | numero < 1
+	Para i = 1 Hasta numero Con Paso 1 Hacer
+		Si i % 2 = 0 & numero % 2 = 0 Entonces
+			Imprimir i
+		FinSi
+		Si i % 2 <> 0 & numero % 2 <> 0 Entonces
+			Imprimir i
+		FinSi
+	FinPara
+FinAlgoritmo
+```
+## (Tuesday)
+## Full Name 🔮 (Solved)
+Algoritmo FullName
+	Escribir "Esriba su Nombre"
+	Leer Nombre
+	Escribir "Esriba su Apellido"
+	Leer Apellido
+	NombreRe = Mayusculas(Subcadena(Nombre,1,1)) + Minusculas(Subcadena(Nombre,2,Longitud(Nombre)))
+	ApellidoRe = Mayusculas(Subcadena(Apellido,1,1)) + Minusculas(Subcadena(Apellido,2,Longitud(Apellido)))
+	Imprimir NombreRe + ApellidoRe
+FinAlgoritmo
