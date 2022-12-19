@@ -460,3 +460,5 @@ Algoritmo Saludos
 	Imprimir "Cantidad de saludos realizados: "+ ConvertirATexto(SaludosRep)
 FinAlgoritmo
 ```
+# week 4 Pseudocode
+## (Monday)
