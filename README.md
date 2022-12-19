@@ -519,3 +519,17 @@ Algoritmo FullName
 	ApellidoRe = Mayusculas(Subcadena(Apellido,1,1)) + Minusculas(Subcadena(Apellido,2,Longitud(Apellido)))
 	Imprimir NombreRe + ApellidoRe
 FinAlgoritmo
+## (Webnesday)
+## Distance To Zero 🥏 (Solved)
+Algoritmo DistanceToZero
+	Escribir "Escribe cantidad de los numeros"
+	leer TotalNumeros
+	Para i=1 Hasta TotalNumeros Con Paso 1 Hacer
+		Escribir "Escribe un numero"
+		leer Numero
+		SI Numero > TotalNumeros Entonces
+			TotalNumeros = Numero
+		FinSi
+	FinPara
+	Imprimir Trunc(TotalNumeros)
+FinAlgoritmo
