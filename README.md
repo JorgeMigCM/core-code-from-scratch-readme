@@ -562,3 +562,20 @@ Algoritmo TossCoin
 	FinSi
 FinAlgoritmo
 ```
+## (Thursday)
+## Total price 💰 (Solved)
+```python
+Funcion valor = TotalPrice(precio, iva)
+	si precio < 3000 Entonces
+		valor = (precio + (precio/100*iva))
+	SiNo
+		valor = (precio + (precio/100*iva))*0.9
+	FinSi
+FinFuncion
+
+
+Algoritmo ETotalPrice
+	Imprimir TotalPrice(2500, 13)
+	Imprimir TotalPrice(6000, 13)
+FinAlgoritmo
+```
