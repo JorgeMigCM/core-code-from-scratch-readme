@@ -579,3 +579,24 @@ Algoritmo ETotalPrice
 	Imprimir TotalPrice(6000, 13)
 FinAlgoritmo
 ```
+## Reverse direction and size 🔃 (Solved)
+```python
+Funcion Palabrafinal = Reversedirectionandsize(palabra)
+	Definir Palabrafinal Como Caracter
+	Palabrafinal = ""
+	Para i= Longitud(palabra) Hasta 0 Con Paso -1 Hacer
+		cadena = Subcadena(palabra,i,i)
+		SI cadena = Mayusculas(cadena) Entonces
+			cadena = Minusculas(cadena)
+		SiNo
+			cadena = Mayusculas(cadena)
+		FinSi
+		Palabrafinal = Concatenar(Palabrafinal, cadena)
+	FinPara
+FinFuncion
+
+
+Algoritmo EReversedirectionandsize
+	Imprimir Reversedirectionandsize("Hola")
+FinAlgoritmo
+```
