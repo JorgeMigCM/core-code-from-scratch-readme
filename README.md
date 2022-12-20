@@ -195,12 +195,12 @@ FinAlgoritmo
 
 ```python
 Algoritmo DetectarNumParImp
-	Imprimir 'Ingrese número'
+	Imprimir "Ingrese número"
 	Leer NumAverificar
 	Si NumAverificar % 2 == 0 Entonces // Verificador para saber el residuo de la división y compararlo con 0 ya que los numeros pares devuel ese valor. 😁
-		Imprimir 'Número: ' + ConvertirATexto(NumAverificar) + ' es par. 😀'
+		Imprimir "Número: " + ConvertirATexto(NumAverificar) + " es par. 😀"
 	SiNo
-		Imprimir 'Número: ' + ConvertirATexto(NumAverificar) + ' es impar. 😉'
+		Imprimir "Número: " + ConvertirATexto(NumAverificar) + " es impar. 😉"
 	FinSi
 FinAlgoritmo
 ```
@@ -298,9 +298,9 @@ FinAlgoritmo
 ## Multi Option 📚 (Solved)
 ```python
 Algoritmo MultiOption
-	Imprimir '1. Sumar de dos numeros'
-	Imprimir '2. Imprimir dia de la semana'
-	Imprimir '3. Calcular longitud de texto'
+	Imprimir "1. Sumar de dos numeros"
+	Imprimir "2. Imprimir dia de la semana"
+	Imprimir "3. Calcular longitud de texto"
 	Repetir
 		Imprimir "Ingrese Opción"
 		Leer option
@@ -347,12 +347,12 @@ FinAlgoritmo
 ## Multiplication Tables 📄 (Solved)
 ```python
 Algoritmo TabladeMultiplicar
-	Imprimir 'Ingrese la tabla a calcular:'
+	Imprimir "Ingrese la tabla a calcular:"
 	Leer tabla
-	Imprimir 'Tabla del ' + ConvertirATexto(tabla)
+	Imprimir "Tabla del " + ConvertirATexto(tabla)
 	i = 1 
 	Mientras i <= 10 Hacer
-		Imprimir ConvertirATexto(tabla) '*' + ConvertirATexto(i) + '=' ConvertirATexto(tabla * i) 
+		Imprimir ConvertirATexto(tabla) "*" + ConvertirATexto(i) + "=" ConvertirATexto(tabla * i) 
 		i = i + 1
 	Fin Mientras
 FinAlgoritmo
@@ -403,24 +403,24 @@ FinAlgoritmo
 ## Multiplication Tables with For 📝 (Solved)
 ```python
 Algoritmo TabladeMultiplicarConFor
-	Imprimir 'Ingrese la tabla a calcular:'
+	Imprimir "Ingrese la tabla a calcular:"
 	Leer tabla
-	Imprimir 'Tabla del ' + ConvertirATexto(tabla)
+	Imprimir "Tabla del " + ConvertirATexto(tabla)
 	Para i = 1 Hasta 10 Con Paso 1 Hacer
-		Imprimir ConvertirATexto(tabla) '*' + ConvertirATexto(i) + '=' ConvertirATexto(tabla * i) 
+		Imprimir ConvertirATexto(tabla) "*" + ConvertirATexto(i) + "=" ConvertirATexto(tabla * i) 
 	FinPara
 FinAlgoritmo
 ```
 ## Ascending and Descending Numbers ⏫⏬ (Solved)
 ```python
 Algoritmo NumeroAscendeteDesendente
-	Imprimir 'Ingrese un numero'
+	Imprimir "Ingrese un numero"
 	Leer numero
 	Repetir
-		Imprimir 'Operaciones disponibles:'
-		Imprimir '1. Imprimir en orden Ascendente'
-		Imprimir '2. Imprimir en orden Descendente'
-		Imprimir 'Ingrese operacion a ejecutar'
+		Imprimir "Operaciones disponibles:"
+		Imprimir "1. Imprimir en orden Ascendente"
+		Imprimir "2. Imprimir en orden Descendente"
+		Imprimir "Ingrese operacion a ejecutar"
 		Leer option
 	Hasta Que option == 1 | option == 2
 	Segun option Hacer
