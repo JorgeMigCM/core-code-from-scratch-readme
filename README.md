@@ -115,6 +115,7 @@ FinAlgoritmo
 
 
 
+## (Tuesday)
 ## Print my name & age 👨‍🦱 (Solved)
 
 ```python
@@ -123,6 +124,8 @@ Algoritmo MiNombreEdad
 	Imprimir 24
 FinAlgoritmo
 ```
+## (Wednesday)
+
 ## Mod 🦾 (Solved)
 
 ```python
@@ -156,6 +159,7 @@ Algoritmo FormularioUsuario
 	Imprimir "Address: "+ address
 FinAlgoritmo
 ```
+## (Thursday)
 ## Truth tables 🔖 (Solved)
 1. T & T = T ✅
 2. T & F = F ✅
