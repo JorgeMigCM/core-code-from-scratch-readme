@@ -604,3 +604,27 @@ Algoritmo EReversedirectionandsize
 	Imprimir Reversedirectionandsize("Hola")
 FinAlgoritmo
 ```
+# week 5 Pseudocode
+## (Monday)
+```python
+Funcion result = CompararDistancias ()
+	Definir result Como Logico;
+	Definir NumeroNeg, NumeroPos Como Real;
+	NumeroNeg = 0;
+	NumeroPos = 0;
+	Para count=1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Escribe un numero - | +"
+		leer num
+		SI num > 0 Entonces
+			NumeroPos = NumeroPos + num;
+		SiNo
+			NumeroNeg = NumeroNeg + num;
+		FinSi
+	FinPara
+	result = NumeroPos > Abs(NumeroNeg)
+Fin Funcion
+
+Algoritmo CompararDistanciasEj
+	Imprimir CompararDistancias()
+FinAlgoritmo
+```
