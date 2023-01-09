@@ -606,6 +606,7 @@ FinAlgoritmo
 ```
 # week 5 Pseudocode
 ## (Monday)
+## Compare distances 🚩
 ```python
 Funcion result = CompararDistancias ()
 	Definir result Como Logico;
