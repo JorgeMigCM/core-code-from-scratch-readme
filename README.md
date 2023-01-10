@@ -606,7 +606,7 @@ FinAlgoritmo
 ```
 # week 5 Pseudocode
 ## (Monday)
-## Compare distances 🚩
+## Compare distances 🚩 (Solved)
 ```python
 Funcion result = CompararDistancias ()
 	Definir result Como Logico;
@@ -630,7 +630,7 @@ Algoritmo CompararDistanciasEj
 FinAlgoritmo
 ```
 ## (Tuesday)
-## Sum of pairs 🎏
+## Sum of pairs 🎏 (Solved)
 ```python
 Funcion result = sumOfPairs ()
 	Definir result Como Entero;
@@ -653,5 +653,30 @@ Fin Funcion
 
 Algoritmo exampleSumOfPairs
 	Imprimir sumOfPairs()
+FinAlgoritmo
+```
+## Mid point 🏁 (Solved)
+```python
+Funcion result = midPoint (Num1, Num2)
+	Si Num1 >= Num2 | Abs(Num1) >= Abs(Num2) Entonces
+		result = ((Num1 + Num2)/2)
+	SiNo
+		Si Num1 < 0 |Abs(Num1) < 0 Entonces
+			result = ((Num1 + Num2)/2)
+		FinSi
+	FinSi
+	Si Num2 >= Num1 | Abs(Num2) >= Abs(Num1) Entonces
+		result = ((Num2 + Num1)/2)
+	SiNo
+		Si Num2 < 0 | Abs(Num2) < 0 Entonces
+			result = ((Num2 + Num1)/2)
+		FinSi
+	FinSi
+FinFuncion
+Algoritmo exampleMidpPoint
+	Imprimir midPoint(40,80)
+	Imprimir midPoint(40,-80)
+	Imprimir midPoint(50,50)
+	Imprimir midPoint(-50,50)
 FinAlgoritmo
 ```
