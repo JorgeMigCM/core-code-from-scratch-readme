@@ -680,3 +680,38 @@ Algoritmo exampleMidpPoint
 	Imprimir midPoint(-50,50)
 FinAlgoritmo
 ```
+## (Wednesday)
+## Cashier 💵 (Solved)
+```python
+Funcion quantity = cashier ()
+	Definir value Como Real
+	quantity = 1000
+	Repetir
+		Escribir "Seleccione una opción"
+		Escribir "a: Depositar"
+		Escribir "b: Retirar"
+		Escribir "c: Salir"
+		Leer option
+		Si option = 'a' Entonces
+			quantity = quantity + deposit()
+		FinSi
+		Si option = 'b' Entonces
+			quantity = quantity - withdraw()
+		FinSi
+	Mientras Que option == "a" | option == "b"
+FinFuncion
+Funcion result = deposit ()
+	Escribir "Cuanto dinero quieres depositar"
+	leer result
+FinFuncion
+Funcion result = withdraw ()
+	Escribir "Cuanto dinero quieres retirar"
+	leer result
+	si quantity < value Entonces
+		Escribir "No tiene los fondos suficientes"
+	FinSi
+FinFuncion
+Algoritmo exampleCashier
+	Imprimir cashier()
+FinAlgoritmo
+```
