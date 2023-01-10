@@ -629,3 +629,29 @@ Algoritmo CompararDistanciasEj
 	Imprimir CompararDistancias()
 FinAlgoritmo
 ```
+## (Tuesday)
+## Sum of pairs 🎏
+```python
+Funcion result = sumOfPairs ()
+	Definir result Como Entero;
+	Definir Suma Como Entero;
+	Suma = 0;
+	Repetir
+		Escribir "Ingrese un numero del 1 al 100"
+		Leer Num
+		Si Num < 1 | Num > 100 Entonces
+			Escribir "Numero invalido"
+		SiNo
+			Si Num%2 = 0 Entonces
+				Suma = Suma + Num;
+			FinSi
+		FinSi
+	Mientras Que Num >= 0 & Num <= 100 
+	result = Suma;
+
+Fin Funcion
+
+Algoritmo exampleSumOfPairs
+	Imprimir sumOfPairs()
+FinAlgoritmo
+```
