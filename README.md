@@ -755,4 +755,4 @@ function FuncIf(test){
   }
 }
 ```
-![code](https://user-images.githubusercontent.com/40581398/212491840-88fed25d-4e50-47ae-9e6f-7fd0eced18d6.png =100x20)
+![code](https://user-images.githubusercontent.com/40581398/212491840-88fed25d-4e50-47ae-9e6f-7fd0eced18d6.png)
