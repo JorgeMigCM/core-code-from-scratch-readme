@@ -716,7 +716,7 @@ Algoritmo exampleCashier
 FinAlgoritmo
 ```
 ## Weather average 🌡 (Solved)
-```python
+```Python
 Funcion Result = fahrenheitToCelsius (fahrenheit)
 	Result = (fahrenheit* 0.5556) - 32  
 Fin Funcion
@@ -746,7 +746,7 @@ FinAlgoritmo
 ```
 ## (Thursday)
 ## 'IF' statement in JavaScript (Solved)
-```javascript
+```JavaScript
 function FuncIf(test){
   if(test == "Hola"){
     return  console.log("Hola como estas");
