@@ -692,10 +692,10 @@ Funcion quantity = cashier ()
 		Escribir "b: Retirar"
 		Escribir "c: Salir"
 		Leer option
-		Si option = 'a' Entonces
+		Si option = "a" Entonces
 			quantity = quantity + deposit()
 		FinSi
-		Si option = 'b' Entonces
+		Si option = "b" Entonces
 			quantity = quantity - withdraw()
 		FinSi
 	Mientras Que option == "a" | option == "b"
@@ -713,5 +713,34 @@ Funcion result = withdraw ()
 FinFuncion
 Algoritmo exampleCashier
 	Imprimir cashier()
+FinAlgoritmo
+```
+## Weather average 🌡 (Solved)
+```python
+Funcion Result = fahrenheitToCelsius (fahrenheit)
+	Result = (fahrenheit* 0.5556) - 32  
+Fin Funcion
+
+Algoritmo exampleWeatherAverage
+	cont = 0;
+	total = 0;
+	Repetir
+		Escribir "Selecciona una opción:";
+		Escribir "a: Ingrese grados en Celsius.";
+		Escribir "b: Ingrese grados en Fahrenheit.";
+		Escribir "c: Salir.";
+		leer option
+		Si option = "a" | option = "b" Entonces
+			leer grados
+			count = cont + 1;
+		FinSi
+		Si option = "a" Entonces
+			total = total + grados;
+		FinSi
+		Si option = "b" Entonces
+			total = total + fahrenheitToCelsius(grados);
+		FinSi
+	Mientras Que option == "a" | option == "b"
+	Imprimir total / cont;
 FinAlgoritmo
 ```
