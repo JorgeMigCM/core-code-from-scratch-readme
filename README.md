@@ -744,3 +744,14 @@ Algoritmo exampleWeatherAverage
 	Imprimir total / cont;
 FinAlgoritmo
 ```
+## (Thursday)
+## 'IF' statement in JavaScript (Solved)
+```javascript
+function FuncIf(test){
+  if(test == "Hola"){
+    return  console.log("Hola como estas");
+  }else if(test != "Hola"){
+    return console.log("Anda saluda");
+  }
+}
+```
