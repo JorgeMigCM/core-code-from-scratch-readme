@@ -771,4 +771,14 @@ function FuncSwitch(example1) {
 }
 FuncSwitch("Iniciar");
 ```
+## 'FOR' loop in JavaScript (Solved)
+```JavaScript
+for (let ExampleFor in Jorge) {
+      console.log(Jorge[ExampleFor]);
+    }if (Jorge['nationality'] == "Bolivian") {
+      console.log(Jorge['firstname']+" "+Jorge['lastname']+ " es de Bolivia");
+    }else{
+      console.log(Jorge['firstname']+" "+Jorge['lastname']+" no es de Bolivia");
+    }
+```
 
