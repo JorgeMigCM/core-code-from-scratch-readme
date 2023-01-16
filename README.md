@@ -782,3 +782,41 @@ for (let ExampleFor in Jorge) {
     }
 ```
 
+# Week 06
+## (Tuesday)
+## Variables (Solved)
+[Descripcion](https://www.jshero.net/en/koans/var.html)
+
+```javascript
+let firstname = 'Lata';
+```
+
+## What is x? (Solved)
+[Descripcion](https://www.jshero.net/en/koans/jsx01.html)
+
+```javascript
+'Geeta'
+```
+
+## Several variables (Solved)
+[Descripcion](https://www.jshero.net/en/koans/var2.html)
+
+```javascript
+let flower = 'rose';
+let tree = 'maple';
+```
+
+## Reassignment (Solved)
+[Descripcion](https://www.jshero.net/en/koans/jsx02.html)
+
+```javascript
+'Toe'
+```
+
+## Assign variables (Solved)
+[Descripcion](https://www.jshero.net/en/koans/jsx03.html)
+
+```javascript
+'Hardy'
+```
+
