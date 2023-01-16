@@ -785,21 +785,21 @@ for (let ExampleFor in Jorge) {
 # Week 06
 ## (Tuesday)
 ## Variables (Solved)
-[Descripcion](https://www.jshero.net/en/koans/var.html)
+[Link](https://www.jshero.net/en/koans/var.html)
 
 ```javascript
 let firstname = 'Lata';
 ```
 
 ## What is x? (Solved)
-[Descripcion](https://www.jshero.net/en/koans/jsx01.html)
+[Link](https://www.jshero.net/en/koans/jsx01.html)
 
 ```javascript
 'Geeta'
 ```
 
 ## Several variables (Solved)
-[Descripcion](https://www.jshero.net/en/koans/var2.html)
+[Link](https://www.jshero.net/en/koans/var2.html)
 
 ```javascript
 let flower = 'rose';
@@ -807,16 +807,66 @@ let tree = 'maple';
 ```
 
 ## Reassignment (Solved)
-[Descripcion](https://www.jshero.net/en/koans/jsx02.html)
+[Link](https://www.jshero.net/en/koans/jsx02.html)
 
 ```javascript
 'Toe'
 ```
 
 ## Assign variables (Solved)
-[Descripcion](https://www.jshero.net/en/koans/jsx03.html)
+[Link](https://www.jshero.net/en/koans/jsx03.html)
 
 ```javascript
 'Hardy'
+```
+
+## (Wednesday)
+## Functions (Solved)
+[Link](https://www.jshero.net/en/koans/function.html)
+
+```javascript
+function hello(){
+return 'Hello world!';
+}
+```
+
+## Multiple functions (Solved)
+[Link](https://www.jshero.net/en/koans/function2.html)
+
+```javascript
+function a(){
+return 'Hello a!';
+}
+function b(){
+return 'Hello b!';
+}
+```
+
+## Function calls (Solved)
+[Link](https://www.jshero.net/en/koans/functioncall.html)
+
+```javascript
+function greet(){
+return 'Haydo!';
+}
+
+let salutation = greet();
+```
+
+## What is x? (Solved)
+[Link](https://www.jshero.net/en/koans/jsx05.html)
+
+```javascript
+'How do you do?'
+```
+
+## Parameters (Solved)
+[Link](https://www.jshero.net/en/koans/parameter.html)
+
+```javascript
+function echo(input) {
+return input;
+}
+let result = echo('CO2');
 ```
 
