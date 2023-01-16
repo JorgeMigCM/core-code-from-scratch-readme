@@ -755,4 +755,20 @@ function FuncIf(test){
   }
 }
 ```
+## 'WHILE' loop in JavaScript (Solved)
+```JavaScript
+function FuncSwitch(example1) {
+  let i = 5;
+  if (example1 == "Iniciar") {
+    do{
+      console.log(i);
+      i--;
+      if (i == 0){
+        console.log("Cuenta terminada");
+      }
+    }while(i >= 0);
+  }
+}
+FuncSwitch("Iniciar");
+```
 
