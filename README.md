@@ -869,4 +869,54 @@ return input;
 }
 let result = echo('CO2');
 ```
+## (Thrusday)
+## String (Solved)
+[Link](https://www.jshero.net/en/koans/string.html)
 
+```javascript
+function greet(name) {
+return 'Hello '+ name + '!';
+}
+
+let x = greet('Ada');
+```
+
+## String: length() (Solved)
+[Link](https://www.jshero.net/en/koans/stringlength.html)
+
+```javascript
+function length(str){
+  return result = str.length;
+}
+length('sun');
+```
+
+## String: toUpperCase() (Solved)
+[Link](https://www.jshero.net/en/koans/stringupper.html)
+
+```javascript
+function toCase(str){
+  return str.toLowerCase()+"-"+str.toUpperCase();
+}
+toCase('Mthatha');
+```
+
+## String: charAt() (Solved)
+[Link](https://www.jshero.net/en/koans/stringcharat.html)
+
+```javascript
+function shortcut(str1, str2){
+return str1.charAt(0)+str2.charAt(0);
+}
+shortcut('Amnesty', 'International');
+```
+
+## String: indexOf() (Solved)
+[Link](https://www.jshero.net/en/koans/stringindexof.html)
+
+```javascript
+function indexOfIgnoreCase(str1, str2) {
+  return str1.toLowerCase().indexOf(str2.toLowerCase());
+}
+indexOfIgnoreCase("bit", "it");
+```
