@@ -604,7 +604,7 @@ Algoritmo EReversedirectionandsize
 	Imprimir Reversedirectionandsize("Hola")
 FinAlgoritmo
 ```
-# week 5 Pseudocode
+# week 5 Pseudocode and JavaScript
 ## (Monday)
 ## Compare distances 🚩 (Solved)
 ```python
@@ -782,7 +782,7 @@ for (let ExampleFor in Jorge) {
     }
 ```
 
-# Week 06
+# Week 6 JavaScript
 ## (Tuesday)
 ## Variables (Solved)
 [Link](https://www.jshero.net/en/koans/var.html)
