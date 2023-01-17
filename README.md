@@ -920,3 +920,43 @@ function indexOfIgnoreCase(str1, str2) {
 }
 indexOfIgnoreCase("bit", "it");
 ```
+# Week 7 JavaScript
+## (Tuesday)
+## String: substr() (Solved)
+[Link](https://www.jshero.net/en/koans/stringsubstr.html)
+
+```javascript
+function firstWord(str) {
+	let space = str.indexOf(" ");  
+	return str.substr(0, space);
+}
+firstWord("see and stop");
+```
+
+## String: replace() (Solved)
+[Link](https://www.jshero.net/en/koans/replace.html)
+
+```javascript
+function normalize(str) {
+  return str.replace(/-/g, '/');
+}
+normalize("20-05-2017");
+```
+
+## Increment (Solved)
+[Link](https://www.jshero.net/en/koans/increment.html)
+
+```javascript
+x => 7
+```
+
+## Fahrenheit (Solved)
+[Link](https://www.jshero.net/en/koans/fahrenheit.html)
+
+```javascript
+function toFahrenheit(degree){
+let toF = (degree*1.8)+32;
+return toF;
+}
+ toFahrenheit(0);
+```
