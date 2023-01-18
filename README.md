@@ -921,7 +921,7 @@ function indexOfIgnoreCase(str1, str2) {
 indexOfIgnoreCase("bit", "it");
 ```
 # Week 7 JavaScript
-## (Tuesday)
+## (Monday)
 ## String: substr() (Solved)
 [Link](https://www.jshero.net/en/koans/stringsubstr.html)
 
@@ -960,3 +960,30 @@ return toF;
 }
  toFahrenheit(0);
 ```
+
+## Boolean (Solved)
+[Link](https://www.jshero.net/en/koans/bool.html)
+
+```javascript
+function nand(boo1, boo2){
+  return !(boo1 && boo2);
+}
+nand(true, true);
+```
+## (Tuesday)
+## Objects CodeWars (Solved)
+```javascript
+function animal(obj){
+  return "This "+ obj.color + " "+ obj.name + " has " + obj.legs+ " legs.";
+}
+```
+
+## Return CodeWars (Solved)
+```javascript
+function mystery() {
+  var results = {sanity: 'Hello'};
+  return results;
+}
+```
+
+
