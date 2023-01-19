@@ -8,8 +8,8 @@
 
 ## Index
 
-- Week 1 : [Algorithms](src/technologies/2022/week01)
-- Week 2 : [Pseudocode](src/technologies/2022/week02)
+- Week 1 : [Algorithms](https://github.com/JorgeMigCM/core-code-from-scratch-readme/tree/main/core-code_Exercise/Week%201)
+- Week 2 : [Pseudocode](src/core-code_Exercise/Week 2)
 - Week 3 : [Pseudocode](src/technologies/2022/week03)
 - Week 4 : [Pseudocode](src/technologies/2022/week04)
 - Week 5 : [Pseudocode & Introduction to Javascript](src/technologies/2022/week05)
