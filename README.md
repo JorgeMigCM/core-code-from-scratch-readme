@@ -1047,3 +1047,18 @@ function Ship(draft,crew) {
   }
 }
 ```
+## (Thursday)💻
+## Convert a String to a Number! CodeWars (Solved)
+```javascript
+const stringToNumber = function(str){
+  // put your code here
+  return parseInt(str);
+}
+```
+## Convert a String to a Number! CodeWars (Solved)
+```javascript
+const stringToNumber = function(str){
+  // put your code here
+  return parseInt(str);
+}
+```
