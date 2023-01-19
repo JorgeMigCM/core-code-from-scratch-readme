@@ -1067,8 +1067,33 @@ function digitize(n) {
 const truthy = [true, {name: 'Jorge', age: 23}, 34, "true", [1,2,3]];
 const falsy = [false, null, '', undefined, 0];
 ```
-## Truthy and Falsy CodeWars (Solved)
+## Training JS #4: Basic data types--Array CodeWars (Solved)
 ```javascript
-const truthy = [true, {name: 'Jorge', age: 23}, 34, "true", [1,2,3]];
-const falsy = [false, null, '', undefined, 0];
+function getLength(arr){
+  //return length of arr
+  result = arr.length;
+  return result;
+}
+function getFirst(arr){
+  //return the first element of arr
+  result = arr[0];
+  return result;
+}
+function getLast(arr){
+  //return the last element of arr
+  result = arr[arr.length-1];
+  return result;
+}
+
+function pushElement(arr){
+  var el=1;
+  //push el to arr
+  arr.push(el);
+  return arr;
+}
+function popElement(arr){
+  //pop an element from arr
+  arr.pop();
+  return arr;
+}
 ```
