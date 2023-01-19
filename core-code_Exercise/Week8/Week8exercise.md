@@ -1,3 +1,4 @@
+# Week 8 JavaScript
 ## (Monday)
 ## Training JS #7: if..else and ternary operator! CodeWars (Solved)
 
