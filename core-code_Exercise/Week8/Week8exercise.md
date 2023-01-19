@@ -14,18 +14,10 @@ function howManydays(month){
     var days;
     switch (month){
         
-        case 4:
-            days = 30;
-        break; 
-        case 6:
-        days = 30;
-        break; 
+        case 4: 
+        case 6: 
         case 9:
-        days = 30;
-        break;
         case 11:
-        days = 30;
-        break;
         days = 30;
         break;
         case 2:
