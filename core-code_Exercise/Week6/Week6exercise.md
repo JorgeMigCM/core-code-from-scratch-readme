@@ -136,3 +136,27 @@ function indexOfIgnoreCase(str1, str2) {
 }
 indexOfIgnoreCase("bit", "it");
 ```
+## Week links 🔗
+
+### MDN Documentation
+
+1. [String - concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)
+2. [String - includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+3. [String - split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+4. [String - charAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+5. [String - slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+6. [String - indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
+7. [String - toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+8. [String - toLowerCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+9. [String - replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+10. [Number - Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+11. [Number - Math.round()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)
+12. [Number - Math.abs()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)
+
+## Session links 🔗
+
+1. [Session 00](https://github.com/corecodeio/FUND04-JS/blob/main/W06/00.js)
+1. [Session 00 std](https://github.com/corecodeio/FUND04-JS/blob/main/W06/00stdp.js)
+1. [Session 01](https://github.com/corecodeio/FUND04-JS/blob/main/W06/01.js)
+1. [Session 01 stdp](https://github.com/corecodeio/FUND04-JS/blob/main/W06/01stdp.js)
+1. [Session 02](https://github.com/corecodeio/FUND04-JS/blob/main/W06/02.js)
