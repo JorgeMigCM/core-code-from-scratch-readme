@@ -72,7 +72,7 @@ Dada las premisas que resultaron ser falsas en los cofres, en la 1ra resulta que
 Entonces el cofre A y B tienen tesoros.
 
 # week 2 Pseudocode
-## (Monday)
+## (Monday)💻
 ## Logic problem 💬 (solved)
 The teacher asks his 5 students if they studied mathematics yesterday.
 
@@ -115,7 +115,7 @@ FinAlgoritmo
 
 
 
-## (Tuesday)
+## (Tuesday)💻💻
 ## Print my name & age 👨‍🦱 (Solved)
 
 ```python
@@ -124,7 +124,7 @@ Algoritmo MiNombreEdad
 	Imprimir 24
 FinAlgoritmo
 ```
-## (Wednesday)
+## (Wednesday)💻💻💻
 
 ## Mod 🦾 (Solved)
 
@@ -159,7 +159,7 @@ Algoritmo FormularioUsuario
 	Imprimir "Address: "+ address
 FinAlgoritmo
 ```
-## (Thursday)
+## (Thursday)💻
 ## Truth tables 🔖 (Solved)
 1. T & T = T ✅
 2. T & F = F ✅
@@ -210,7 +210,7 @@ FinAlgoritmo
 ```
 
 # week 3 Pseudocode
-## (Monday)
+## (Monday)💻
 
 ## Simple calculator 🖥 (Solved)
 
@@ -264,7 +264,7 @@ Algoritmo NumeroEspecial
 	FinSi
 FinAlgoritmo
 ```
-## (Tuesday)
+## (Tuesday)💻
 ## Simple calculator with Switch 🖥 (Solved)
 ```python
 Algoritmo CalculadoraConSwitch
@@ -347,7 +347,7 @@ Algoritmo MultiOption
 	Fin Segun
 FinAlgoritmo
 ```
-## (Wednesday)
+## (Wednesday)💻
 ## Multiplication Tables 📄 (Solved)
 ```python
 Algoritmo TabladeMultiplicar
@@ -403,7 +403,7 @@ Algoritmo simplecalculatorDoWhile
 FinAlgoritmo
 ```
 
-## (Thursday)
+## (Thursday)💻
 ## Multiplication Tables with For 📝 (Solved)
 ```python
 Algoritmo TabladeMultiplicarConFor
@@ -465,7 +465,7 @@ Algoritmo Saludos
 FinAlgoritmo
 ```
 # week 4 Pseudocode
-## (Monday)
+## (Monday)💻
 ## Average sales and commission ✍ (Solved)
 ```python
 Algoritmo AverageSalesandComission
@@ -512,7 +512,7 @@ Algoritmo EvenOrOdd
 	FinPara
 FinAlgoritmo
 ```
-## (Tuesday)
+## (Tuesday)💻💻
 ## Full Name 🔮 (Solved)
 ```python
 Algoritmo FullName
@@ -525,7 +525,7 @@ Algoritmo FullName
 	Imprimir NombreRe + ApellidoRe
 FinAlgoritmo
 ```
-## (Webnesday)
+## (Webnesday)💻
 ## Distance To Zero 🥏 (Solved)
 ```python
 Algoritmo DistanceToZero
@@ -566,7 +566,7 @@ Algoritmo TossCoin
 	FinSi
 FinAlgoritmo
 ```
-## (Thursday)
+## (Thursday)💻
 ## Total price 💰 (Solved)
 ```python
 Funcion valor = TotalPrice(precio, iva)
@@ -605,7 +605,7 @@ Algoritmo EReversedirectionandsize
 FinAlgoritmo
 ```
 # week 5 Pseudocode and JavaScript
-## (Monday)
+## (Monday)💻💻
 ## Compare distances 🚩 (Solved)
 ```python
 Funcion result = CompararDistancias ()
@@ -629,7 +629,7 @@ Algoritmo CompararDistanciasEj
 	Imprimir CompararDistancias()
 FinAlgoritmo
 ```
-## (Tuesday)
+## (Tuesday)💻
 ## Sum of pairs 🎏 (Solved)
 ```python
 Funcion result = sumOfPairs ()
@@ -680,7 +680,7 @@ Algoritmo exampleMidpPoint
 	Imprimir midPoint(-50,50)
 FinAlgoritmo
 ```
-## (Wednesday)
+## (Wednesday)💻
 ## Cashier 💵 (Solved)
 ```python
 Funcion quantity = cashier ()
@@ -744,7 +744,7 @@ Algoritmo exampleWeatherAverage
 	Imprimir total / cont;
 FinAlgoritmo
 ```
-## (Thursday)
+## (Thursday)💻
 ## 'IF' statement in JavaScript (Solved)
 ```JavaScript
 function FuncIf(test){
@@ -783,7 +783,7 @@ for (let ExampleFor in Jorge) {
 ```
 
 # Week 6 JavaScript
-## (Tuesday)
+## (Tuesday)💻
 ## Variables (Solved)
 [Link](https://www.jshero.net/en/koans/var.html)
 
@@ -820,7 +820,7 @@ let tree = 'maple';
 'Hardy'
 ```
 
-## (Wednesday)
+## (Wednesday)💻
 ## Functions (Solved)
 [Link](https://www.jshero.net/en/koans/function.html)
 
@@ -869,7 +869,7 @@ return input;
 }
 let result = echo('CO2');
 ```
-## (Thrusday)
+## (Thrusday)💻
 ## String (Solved)
 [Link](https://www.jshero.net/en/koans/string.html)
 
@@ -921,7 +921,7 @@ function indexOfIgnoreCase(str1, str2) {
 indexOfIgnoreCase("bit", "it");
 ```
 # Week 7 JavaScript
-## (Monday)
+## (Monday)💻
 ## String: substr() (Solved)
 [Link](https://www.jshero.net/en/koans/stringsubstr.html)
 
@@ -970,7 +970,7 @@ function nand(boo1, boo2){
 }
 nand(true, true);
 ```
-## (Tuesday)
+## (Tuesday)💻
 ## Objects CodeWars (Solved)
 ```javascript
 function animal(obj){
@@ -1004,6 +1004,7 @@ var rooms = {
   }
 }
 ```
+## (Wednesday)💻
 ## Count strings in objects CodeWars (Solved)
 ```javascript
 function strCount(obj){
@@ -1018,6 +1019,15 @@ function strCount(obj){
     } 
   }
   return count;
+}
+```
+## Extending JavaScipt Objects with first & fast CodeWars (Solved)
+```javascript
+Array.prototype.first = function(){
+  return this[0];
+}
+Array.prototype.last = function(){
+  return this[this.length-1];
 }
 ```
 
