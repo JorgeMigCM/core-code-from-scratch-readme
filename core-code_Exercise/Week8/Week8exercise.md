@@ -40,3 +40,18 @@ function howManydays(month){
 howManydays(3);
 ```
 
+## Basic Calculator CodeWars (Solved)
+
+```JavaScript
+function calculate(num1, operation, num2) {
+    //TODO: make a basic calculator.
+     result = (operation === "+" ? num1 + num2 : 
+     operation === "-" ? num1 - num2 : 
+     operation === "*" ? num1 * num2 : 
+     operation === "/" && num2 != 0 ? num1 / num2 : 
+     null);
+     return console.log(result);
+   }
+   calculate(2, "*", 0);
+```
+
