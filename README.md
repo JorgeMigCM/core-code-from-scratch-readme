@@ -8,11 +8,11 @@
 
 ## Index
 
-- Week 1 : [Algorithms](core-code_Exercise/Week 1/Week 1 exercise.md)
-- Week 2 : [Pseudocode](core-code_Exercise/Week 2/Week 2 exercise.md)
-- Week 3 : [Pseudocode](core-code_Exercise/Week 3/Week 3 exercise.md)
-- Week 4 : [Pseudocode]()
-- Week 5 : [Pseudocode & Introduction to Javascript](src/technologies/2022/week05)
-- Week 6 : [JavaScript](src/technologies/2022/week06)
-- Week 7 : [JavaScript](src/technologies/2022/week07)
-- Week 8 : [JavaScript](src/technologies/2022/week08)
+- Week 1 : [Algorithms](core-code_Exercise/Week1/Week1exercise.md)
+- Week 2 : [Pseudocode](core-code_Exercise/Week2/Week2exercise.md)
+- Week 3 : [Pseudocode](core-code_Exercise/Week3/Week3exercise.md)
+- Week 4 : [Pseudocode](core-code_Exercise/Week4/Week4exercise.md)
+- Week 5 : [Pseudocode & Introduction to Javascript](core-code_Exercise/Week5/Week5exercise.md)
+- Week 6 : [JavaScript](core-code_Exercise/Week6/Week6exercise.md)
+- Week 7 : [JavaScript](core-code_Exercise/Week7/Week7exercise.md)
+- Week 8 : [JavaScript](core-code_Exercise/Week8/Week8exercise.md)
