@@ -1030,4 +1030,20 @@ Array.prototype.last = function(){
   return this[this.length-1];
 }
 ```
-
+## Object Oriented Piracy CodeWars (Solved)
+```javascript
+function Ship(draft,crew) {
+ this.draft = draft;
+ this.crew = crew;
+  
+  this.worth = draft - (crew*1.5);
+  
+  this.isWorthIt =function(){
+    if(this.worth< 20){
+      return false;
+    }else{
+      return true;
+    }
+  }
+}
+```
