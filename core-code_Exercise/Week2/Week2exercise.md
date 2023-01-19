@@ -135,3 +135,8 @@ Algoritmo DetectarNumParImp
 	FinSi
 FinAlgoritmo
 ```
+## Session links 🔗
+- [Operadores PSEint](https://sites.google.com/site/portafolioabc2/tipos-de-operadores-en-pseint)
+- [Nombrar variables (Casos)](https://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/#:~:text=Camel%20case%20(ex%3A%20camelCase),names%2C%20interfaces%2C%20and%20namespaces.)
+- [PSeInt en línea](https://www.rollapp.com/app/pseint)
+- [Documentación PSeInt](https://pseint.sourceforge.net/index.php?page=documentacion.php)
