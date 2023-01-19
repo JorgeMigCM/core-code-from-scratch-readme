@@ -175,3 +175,21 @@ function popElement(arr){
   return arr;
 }
 ```
+## Week links 
+
+1. [Objects in Javascript](https://www.w3schools.com/js/js_objects.asp)
+2. [Prototypes, inheritance](https://javascript.info/prototypes)
+3. [Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+4. [Type conversion](https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion) and [Type coercion](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
+5. [JavaScript Type Conversions](https://www.programiz.com/javascript/type-conversion)
+6. [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) and [Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) values
+7. [JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
+
+## Session links 🔗
+
+1. [Standup 00](https://github.com/corecodeio/FUND04-JS/blob/main/W07/00stdp.js)
+2. [Session 01](https://github.com/corecodeio/FUND04-JS/blob/main/W07/01.js)
+3. [Standup 01](https://github.com/corecodeio/FUND04-JS/blob/main/W07/01stdp.js)
+4. [Standup 02](https://github.com/corecodeio/FUND04-JS/blob/main/W07/02stdp.js)
+5. [Session 03](https://github.com/corecodeio/FUND04-JS/blob/main/W07/03.js)
+6. [Session 04](https://github.com/corecodeio/FUND04-JS/blob/main/W07/04.js)
