@@ -1055,10 +1055,20 @@ const stringToNumber = function(str){
   return parseInt(str);
 }
 ```
-## Convert a String to a Number! CodeWars (Solved)
+## Convert number to reversed array of digits CodeWars (Solved)
 ```javascript
-const stringToNumber = function(str){
-  // put your code here
-  return parseInt(str);
+function digitize(n) {
+  result = n.toString().split('').reverse().map(Number);
+  return result;
 }
+```
+## Truthy and Falsy CodeWars (Solved)
+```javascript
+const truthy = [true, {name: 'Jorge', age: 23}, 34, "true", [1,2,3]];
+const falsy = [false, null, '', undefined, 0];
+```
+## Truthy and Falsy CodeWars (Solved)
+```javascript
+const truthy = [true, {name: 'Jorge', age: 23}, 34, "true", [1,2,3]];
+const falsy = [false, null, '', undefined, 0];
 ```
