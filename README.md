@@ -1004,5 +1004,20 @@ var rooms = {
   }
 }
 ```
-
+## Count strings in objects CodeWars (Solved)
+```javascript
+function strCount(obj){
+// Your code here
+  let count = 0;
+  for (let objC in obj) {
+    if (typeof obj[objC] == 'string'){
+      count++;
+      }
+    if (typeof obj[objC] == 'object'){
+      count = count + strCount(obj[objC]);
+    } 
+  }
+  return count;
+}
+```
 
