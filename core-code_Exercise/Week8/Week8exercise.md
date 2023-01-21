@@ -46,7 +46,7 @@ function calculate(num1, operation, num2) {
    }
    calculate(2, "*", 0);
 ```
-## (Monday)
+## (Tuesday)
 ## Even or odd CodeWars (Solved)
 
 ```JavaScript
