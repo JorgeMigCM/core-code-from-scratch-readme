@@ -46,4 +46,12 @@ function calculate(num1, operation, num2) {
    }
    calculate(2, "*", 0);
 ```
+## (Monday)
+## Even or odd CodeWars (Solved)
+
+```JavaScript
+function evenOrOdd(number) {
+  return number % 2 == 0 ? "Even": "Odd";
+}
+```
 
