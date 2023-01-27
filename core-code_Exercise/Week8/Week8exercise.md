@@ -55,3 +55,15 @@ function evenOrOdd(number) {
 }
 ```
 
+## A wolf in sheep's clothing (Solved)
+
+```JavaScript
+function warnTheSheep(queue) {
+  let wolfP = queue.indexOf('wolf');
+  let sheepN= queue.length - (wolfP + 1);
+  
+  return wolfP == queue.length - 1 ? 'Pls go away and stop eating my sheep' : 'Oi! Sheep number '+ sheepN +'! You are about to be eaten by a wolf!'
+
+}
+```
+
