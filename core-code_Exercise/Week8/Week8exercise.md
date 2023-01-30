@@ -100,5 +100,20 @@ function likes(names) {
   );
 }
 ```
+## Bit counting (Solved)
+
+```JavaScript
+var countBits = function(n) {
+  // Program Me
+  let BiNum = n.toString(2);
+  let CounBinOne = 0;
+  
+  for(let i = 0; i < BiNum.length; i++){
+    if(BiNum[i] === '1') CounBinOne++
+  }
+  return CounBinOne
+};
+```
+
 
 
