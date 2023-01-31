@@ -16,3 +16,5 @@
 - Week 6 : [JavaScript](core-code_Exercise/Week6/Week6exercise.md)
 - Week 7 : [JavaScript](core-code_Exercise/Week7/Week7exercise.md)
 - Week 8 : [JavaScript](core-code_Exercise/Week8/Week8exercise.md)
+- Week 9 : [JavaScript](core-code_Exercise/Week9/Week9exercise.md)
+- Week 10 : [JavaScript](core-code_Exercise/Week10/Week10exercise.md)
