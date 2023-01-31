@@ -1,13 +1,13 @@
-# Week 8 JavaScript
+# Week 9 JavaScript
 ## (Monday)
-## Training JS #7: if..else and ternary operator! CodeWars (Solved)
+## "this" is a problem CodeWars (Solved)
 
 ```JavaScript
 function saleHotdogs(n){
   return n * (n < 5 ? 100 : n >= 5 && n < 10 ? 95 : 90);
 }
 ```
-## Training JS #8: conditional statement--switch CodeWars (Solved)
+## "Thinkful - List and Loop Drills: Lists of lists" CodeWars (Solved)
 
 ```JavaScript
 function howManydays(month){
@@ -32,7 +32,7 @@ function howManydays(month){
 howManydays(3);
 ```
 
-## Basic Calculator CodeWars (Solved)
+## Stop gninnipS My sdroW! CodeWars (Solved)
 
 ```JavaScript
 function calculate(num1, operation, num2) {
@@ -47,7 +47,7 @@ function calculate(num1, operation, num2) {
    calculate(2, "*", 0);
 ```
 ## (Tuesday)
-## Even or odd CodeWars (Solved)
+## "this" is an other problem CodeWars (Solved)
 
 ```JavaScript
 function evenOrOdd(number) {
@@ -55,7 +55,7 @@ function evenOrOdd(number) {
 }
 ```
 
-## A wolf in sheep's clothing (Solved)
+## "Who likes it?" (Solved)
 
 ```JavaScript
 function warnTheSheep(queue) {
@@ -66,7 +66,7 @@ function warnTheSheep(queue) {
 
 }
 ```
-## Decode the morse code (Solved)
+## Convert string to camel case (Solved)
 
 ```JavaScript
 decodeMorse = function (morseCode) {
@@ -85,7 +85,7 @@ decodeMorse = function (morseCode) {
 ```
 
 ## (Wednesday)
-## Who likes it? (Solved)
+## Easy mathematical callback (Solved)
 
 ```JavaScript
 function likes(names) {
@@ -100,7 +100,7 @@ function likes(names) {
   );
 }
 ```
-## Bit counting (Solved)
+## Moving Zeros To The End (Solved)
 
 ```JavaScript
 var countBits = function(n) {
@@ -114,7 +114,7 @@ var countBits = function(n) {
   return CounBinOne
 };
 ```
-## Your order, please (Solved)
+## Valid Parentheses (Solved)
 
 ```JavaScript
   function order(words) {
@@ -131,7 +131,7 @@ var countBits = function(n) {
 }
 ```
 ## (Thursday)
-## Counting duplicates (Solved)
+## The Hashtag Generator (Solved)
 
 ```JavaScript
 function duplicateCount(text) {
@@ -148,7 +148,7 @@ function duplicateCount(text) {
 } (copy)
 ```
 
-## Encrypt this! (Solved)
+## String incrementer (Solved)
 
 ```JavaScript
 const encryptThis = text => text
@@ -158,32 +158,4 @@ const encryptThis = text => text
   .replace(/^\w/, word.charCodeAt(0)))
   .join(' ');
   (Copy)
-```
-## Valid parentheses (Solved)
-
-```JavaScript
-function validParentheses(parens) {
-  let valid = 0;
-  for (let i = 0; i < parens.length; i++) {
-    if (parens[i] === ')') valid--;
-    if (parens[i] === '(') valid++;
-    if (valid < 0) return false;
-  }
-  return valid == 0;
-}
-  (Copy)
-```
-## Convert string to camel case (Solved)
-
-```JavaScript
-function toCamelCase(str) {
-  let result;
-  result = str
-  .replace(/_/g, '-')
-  .split('-')
-  .map((word, i) => (i > 0 ? word.toUpperCase()[0] + word.substr(1): word))
-  .join('')
-  return console.log(result)
-  
-}
 ```
