@@ -14,26 +14,23 @@ function NameMe(first, last) {
 ## "Thinkful - List and Loop Drills: Lists of lists" CodeWars (Solved)
 
 ```JavaScript
-function howManydays(month){
-    var days;
-    switch (month){
-        
-        case 4: 
-        case 6: 
-        case 9:
-        case 11:
-        days = 30;
-        break;
-        case 2:
-        days = 28;
-        break;
-        default:
-            days = 31;
-    
-    }
-    return console.log(days);
+function processData(data){
+  //your code here
+  let resultF = 1;
+  for (let i = 0; i < data.length; i++) {
+    let result1 = data[i][0] - data[i][1];
+    resultF = resultF * result1;
+  }
+  return console.log(resultF);
 }
-howManydays(3);
+function processData1(data1){
+  //your code here
+  result = data1
+          .map((list1) => list1[0] -list1[1])
+          .reduce((acc, currenV) => acc * currenV)
+  return console.log(result);
+
+}
 ```
 
 ## Stop gninnipS My sdroW! CodeWars (Solved)
