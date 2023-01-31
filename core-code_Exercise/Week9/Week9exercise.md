@@ -3,8 +3,12 @@
 ## "this" is a problem CodeWars (Solved)
 
 ```JavaScript
-function saleHotdogs(n){
-  return n * (n < 5 ? 100 : n >= 5 && n < 10 ? 95 : 90);
+function NameMe(first, last) {
+    this.firstName = first;
+    this.lastName = last;
+    return {firstName: first,
+            lastName: last,
+            name: this.firstName + ' ' + this.lastName};
 }
 ```
 ## "Thinkful - List and Loop Drills: Lists of lists" CodeWars (Solved)
