@@ -173,5 +173,19 @@ function validParentheses(parens) {
 }
   (Copy)
 ```
+## Convert string to camel case (Solved)
+
+```JavaScript
+function toCamelCase(str) {
+  let result;
+  result = str
+  .replace(/_/g, '-')
+  .split('-')
+  .map((word, i) => (i > 0 ? word.toUpperCase()[0] + word.substr(1): word))
+  .join('')
+  return console.log(result)
+  
+}
+```
 
 
