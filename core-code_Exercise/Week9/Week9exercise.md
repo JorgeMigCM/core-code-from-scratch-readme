@@ -21,14 +21,14 @@ function processData(data){
     let result1 = data[i][0] - data[i][1];
     resultF = resultF * result1;
   }
-  return console.log(resultF);
+  return resultF;
 }
 function processData1(data1){
   //your code here
   result = data1
           .map((list1) => list1[0] -list1[1])
           .reduce((acc, currenV) => acc * currenV)
-  return console.log(result);
+  return result;
 
 }
 ```
