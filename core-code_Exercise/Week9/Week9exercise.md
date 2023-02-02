@@ -36,16 +36,18 @@ function processData1(data1){
 ## Stop gninnipS My sdroW! CodeWars (Solved)
 
 ```JavaScript
-function calculate(num1, operation, num2) {
-    //TODO: make a basic calculator.
-     result = (operation === "+" ? num1 + num2 : 
-     operation === "-" ? num1 - num2 : 
-     operation === "*" ? num1 * num2 : 
-     operation === "/" && num2 != 0 ? num1 / num2 : 
-     null);
-     return console.log(result);
-   }
-   calculate(2, "*", 0);
+function spinWords(string){
+  //TODO Have fun :)
+  words = string.split(' ');
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].length >= 5) {
+      words[i] = words[i].split('').reverse().join('');
+    }
+  }
+  result = words.join(' ');
+  return console.log(result)
+}
+
 ```
 ## (Tuesday)
 ## "this" is an other problem CodeWars (Solved)
