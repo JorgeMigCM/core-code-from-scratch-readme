@@ -108,7 +108,11 @@ function toCamelCase(str){
 ## Easy mathematical callback (Solved)
 
 ```JavaScript
-
+function processArray(arr, callback) {
+  // TODO
+let result = arr.map(callback);
+return result;
+}
 ```
 ## Moving Zeros To The End (Solved)
 
