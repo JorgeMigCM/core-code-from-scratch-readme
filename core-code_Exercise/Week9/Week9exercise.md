@@ -90,7 +90,18 @@ function likes(names) {
 ## Convert string to camel case (Solved)
 
 ```JavaScript
-
+function toCamelCase(str){
+  let result;
+  if(str == '') return str;
+  else{
+    result = str
+  .replace(/_/g, '-')
+  .split('-')
+  .map((word, i) => (i > 0 ? word.toUpperCase()[0] + word.substr(1): word))
+  .join('');
+  return result;
+  }
+}
 ```
 
 ## (Wednesday)
