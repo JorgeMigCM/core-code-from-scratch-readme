@@ -160,5 +160,9 @@ function generateHashtag (str) {
 ## String incrementer (Solved)
 
 ```JavaScript
-
+function incrementString (strng) {
+  var pat = /([1-9]\d+|09+\d?|\d)$/;
+  var arr = strng.match(pat);
+  return arr ? strng.replace(pat,+(arr[0]) + 1): strng + '1';
+}
 ```
