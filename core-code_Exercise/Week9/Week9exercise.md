@@ -146,7 +146,15 @@ function validParentheses(str) {
 ## The Hashtag Generator (Solved)
 
 ```JavaScript
-
+function generateHashtag (str) {
+  str = str.toLowerCase()
+           .split(' ')
+           .filter(v => v.match(/[a-z]/))
+           .map(v => v[0].toUpperCase()+v.slice(1))
+           .join('');
+  return (str.length === 0 || str.length >= 140 ) ? false : '#' + str;
+  
+}
 ```
 
 ## String incrementer (Solved)
