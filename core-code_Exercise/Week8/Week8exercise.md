@@ -145,7 +145,7 @@ function duplicateCount(text) {
     }
   }
   return duplicates;
-} (copy)
+}
 ```
 
 ## Encrypt this! (Solved)
@@ -157,8 +157,7 @@ const encryptThis = text => text
   .replace(/(^\w)(\w)(\w*)(\w$)/, `$1$4$3$2`)
   .replace(/^\w/, word.charCodeAt(0)))
   .join(' ');
-  (Copy)
-```
+ ```
 ## Valid parentheses (Solved)
 
 ```JavaScript
@@ -171,7 +170,6 @@ function validParentheses(parens) {
   }
   return valid == 0;
 }
-  (Copy)
 ```
 ## Convert string to camel case (Solved)
 
