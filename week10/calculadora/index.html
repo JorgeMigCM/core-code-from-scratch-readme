@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="calculator">
+    <input id="display" class="display" placeholder="0"></input>
+    <div class="number-pad">
+      <div value="ac" id="ac" class="button operation" onclick="clearDisplay()">AC</div>
+      <div class="button operation rever" onclick="toReverse()">±</div>
+      <div value="%" class="button operation porc" onclick="porcent()">%</div>
+      <div value="/" class="button operation div" onclick="toDisplay('/')">÷</div>
+      <div value="7" class="button number-7" onclick="toDisplay('7')">7</div>
+      <div value="8" class="button number-8" onclick="toDisplay('8')">8</div>
+      <div value="9" class="button number-9" onclick="toDisplay('9')">9</div>
+      <div value="*" class="button operation mul" onclick="toDisplay('*')">x</div>
+      <div value="4" class="button number-4" onclick="toDisplay('4')">4</div>
+      <div value="5" class="button number-5" onclick="toDisplay('5')">5</div>
+      <div value="6" class="button number-6" onclick="toDisplay('6')">6</div>
+      <div value="-" class="button operation res" onclick="toDisplay('-')">-</div>
+      <div value="1" class="button number-1" onclick="toDisplay('1')">1</div>
+      <div value="2" class="button number-2" onclick="toDisplay('2')">2</div>
+      <div value="3" class="button number-3" onclick="toDisplay('3')">3</div>
+      <div value="+" class="button operation sum" onclick="toDisplay('+')">+</div>
+      <div value="0" class="button number-0" onclick="toDisplay('0')">0</div>
+      <div value="." class="button decimal dot" onclick="toDisplay('.')">.</div>
+      <div value="=" class="button equal" onclick="equal()"> =</div>
+    </div>
+  </div>
+  <script src="calculadora.js"></script>
+</body>
+
+</html>
