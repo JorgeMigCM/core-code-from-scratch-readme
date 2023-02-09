@@ -1,17 +1,17 @@
-import React, {useState} from "react";
+import React, {useState} from 'react';
 
 const AddContact = (props) =>{
 
     const [newContact, setNewContact] = useState({
         name:"",
         email:""
-    })
+    });
 
     const add = (event) =>{
         event.preventDefault();
         if (newContact.name === "" || newContact.email === "") {
             alert("Please fill all the fields.")
-            return;
+            return
         }
 
         props.addContactHandler(newContact);

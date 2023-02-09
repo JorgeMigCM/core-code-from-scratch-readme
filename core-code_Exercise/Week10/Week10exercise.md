@@ -1,2 +1,2 @@
-# Week 8 JavaScript
+# Week 10 JavaScript
 ## Calculadora y React Project

@@ -8,18 +8,22 @@ function App() {
 
   const [contacts, setContacts] = useState([]);
 
-  const addContactHandler = (contact) =>{
-    setContacts(...contacts, {id: uuid(),...contact})
+  const addContactHandler = (contact) => {
+    setContacts([...contacts, {id: uuid(),...contact}])
   }
 
   const removeContactHandler = (id) =>{
-    
+    const newContactList = contacts.filter((contact) => {
+      return contact.id !== id;
+    });
+
+    setContacts(newContactList)
   }
   return (
     <div className="ui container">
       <Header/>
       <AddContact addContactHandler={addContactHandler}/>
-      <ContactList contacts={contacts} />
+      <ContactList contacts={contacts} removeContact = {removeContactHandler}/>
     </div>
   );
 }
