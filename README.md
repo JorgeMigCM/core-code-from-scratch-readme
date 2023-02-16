@@ -18,3 +18,5 @@
 - Week 8 : [JavaScript](core-code_Exercise/Week8/Week8exercise.md)
 - Week 9 : [JavaScript](core-code_Exercise/Week9/Week9exercise.md)
 - Week 10 : [JavaScript](core-code_Exercise/Week10)
+- Week 11 : [React](core-code_Exercise/Week11/Week11exercise.md)
+- Week 12 : [Node](core-code_Exercise/Week12/Week12exercise.md)
