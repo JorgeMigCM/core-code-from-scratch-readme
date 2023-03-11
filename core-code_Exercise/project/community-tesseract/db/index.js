@@ -30,8 +30,16 @@ export async function initDB() {
         id INTEGER PRIMARY KEY,
         title TEXT,
         description TEXT,
-        is_done INTEGER DEFAULT 0
-      )
+        is_done INTEGER DEFAULT 0,
+        date_of_edit TIMESTAMP, 
+        date_of_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      );
+
+      CREATE TRIGGER IF NOT EXISTS update_date_of_edit_in_todos AFTER UPDATE ON todos
+      BEGIN
+        update todos SET date_of_edit = datetime('now','localtime') WHERE id = NEW.id;
+      END;
+
     `);
 
     await db.close();
