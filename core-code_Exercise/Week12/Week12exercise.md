@@ -82,8 +82,18 @@ URIs enable internet protocols to facilitate interactions between and among thes
 4. How are HTTP and REST related?
 While many people continue to use the terms REST and HTTP interchangeably, the truth is that they are different things. REST refers to a set of attributes of a particular architectural style, while HTTP is a well-defined protocol that happens to exhibit many features of a RESTful system. [🔎](https://www.baeldung.com/cs/rest-vs-http#:~:text=While%20many%20people%20continue%20to,features%20of%20a%20RESTful%20system.)
 - What HTTP methods does REST use within its architecture rules?
+[Answer 🔎](https://www.techtarget.com/searchapparchitecture/tip/The-5-essential-HTTP-methods-in-RESTful-API-development)
 - Why do we use HTTP methods in REST and how do they relate to resources?
+[HTTP resources vs. resource collections 🔎](https://www.techtarget.com/searchapparchitecture/tip/The-5-essential-HTTP-methods-in-RESTful-API-development)
 5. Is REST the same as HTTP?
+[Answer 🔎](https://www.baeldung.com/cs/rest-vs-http#:~:text=While%20many%20people%20continue%20to,features%20of%20a%20RESTful%20system.)
+
+## REST API Clients
+3. Answer the questions:
+- Postman only works with REST APIs?
+execute any REST, SOAP, and GraphQL queries from within Postman.
+- Is there an alternative to Postman?
+[Postman alternatives 🔎](https://www.baeldung.com/cs/rest-vs-http#:~:text=While%20many%20people%20continue%20to,features%20of%20a%20RESTful%20system.)
 
 
 
