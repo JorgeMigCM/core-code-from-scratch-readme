@@ -175,7 +175,7 @@ h2 {
 .delete-icon {
   margin-right: 5px;
   color: #fff;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 .notification-icon{
@@ -207,4 +207,41 @@ h2 {
 .task-complete{
   z-index: -99;
   cursor: none;
+}
+.icon-edit{
+  background: #fbc02d;
+  padding: 3px 3px;
+  border-radius: 50px;
+  font-size: 28px;
+}
+.icon-edit:hover{
+  background: #ffffff00;
+  color: #fff;
+}
+.icon-delete{
+  background: #fb2d2d;
+  padding: 2px 2px;
+  border-radius: 50px;
+}
+.icon-delete:hover{
+  background: #ffffff00;
+  color: #fff;
+}
+.icon-success{
+  background: #8bc34a;
+  padding: 2px 2px;
+  border-radius: 50px;
+}
+.icon-success:hover{
+  background: #ffffff00;
+  color: #fff;
+}
+.icon-primary{
+  background: #0027d6;
+  padding: 2px 2px;
+  border-radius: 50px;
+}
+.icon-primary:hover{
+  background: #ffffff00;
+  color: #fff;
 }

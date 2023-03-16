@@ -56,22 +56,22 @@ const Todo = ({
         <div className="icons">
           <RiCheckboxCircleLine
             onClick={() => isDoneTodo(todo.id)}
-            className="delete-icon"
+            className="delete-icon icon-success"
           />
           {!todo.showDescription && (
             <RiArrowDownCircleLine
             onClick={() => showDescription(todo.id)}
-            className="delete-icon"
+            className="delete-icon icon-primary"
           />
           )}{todo.showDescription && (
             <RiArrowUpCircleLine
             onClick={() => showDescription(todo.id)}
-            className="delete-icon"
+            className="delete-icon icon-primary"
           />
           )}
           <RiCloseCircleLine
             onClick={() => removeTodo(todo.id)}
-            className="delete-icon"
+            className="delete-icon icon-delete"
           />
           <TiEdit
             onClick={() =>
@@ -82,7 +82,7 @@ const Todo = ({
                 })
               }
             }
-            className="edit-icon"
+            className="icon-edit"
           />
         </div>
       </div>
